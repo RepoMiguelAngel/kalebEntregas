@@ -41,7 +41,7 @@ La aplicación se ejecuta con `python control_gastos.py`; las pruebas, con `pyth
 
 ## Repositorio de GitHub
 
-- **URL:** [Pega aquí el enlace a tu repositorio]
+- **URL:** https://github.com/RepoMiguelAngel/kalebEntregas
 
 ## Evidencias
 

@@ -49,20 +49,10 @@ El flujo de GitHub Actions está en `.github/workflows/ci.yml`. Se ejecuta en ca
 
 ## Git y GitHub
 
-Inicializa Git en la carpeta del proyecto (no en una carpeta superior):
+El proyecto está publicado en [github.com/RepoMiguelAngel/kalebEntregas](https://github.com/RepoMiguelAngel/kalebEntregas). Para obtener una copia:
 
 ```bash
-git init
-git add .
-git commit -m "Crear aplicación de control de gastos"
+git clone https://github.com/RepoMiguelAngel/kalebEntregas.git
 ```
 
-Para publicar el proyecto, crea un repositorio vacío en tu cuenta de GitHub y conecta la URL que GitHub te proporcione:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/control-gastos.git
-git push -u origin main
-```
-
-Continúa registrando cambios con mensajes que expliquen el propósito real de cada cambio. La guía de la entrega y las evidencias que debes capturar están en `ENTREGA_SEMANA1.md`.
+Los cambios se registran con commits descriptivos y se publican con `git push`. La guía de la entrega y las evidencias que debes capturar están en `ENTREGA_SEMANA1.md`.
