@@ -29,7 +29,7 @@ class TestControlGastos(unittest.TestCase):
             Gasto("Comida", Decimal("120.25")),
             Gasto("Transporte", Decimal("35.75")),
         ]
-        self.assertEqual(calcular_total(gastos), Decimal("155.00"))
+        self.assertEqual(calcular_total(gastos), Decimal("156.00"))
 
     def test_total_de_lista_vacia_es_cero(self):
         self.assertEqual(calcular_total([]), Decimal("0"))
